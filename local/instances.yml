@@ -1,0 +1,11 @@
+{{ .Name }}.rs1-master:
+  advertise_uri: localhost:3301
+  http_port: 8081
+
+{{ .Name }}.rs1-replica:
+  advertise_uri: localhost:3302
+  http_port: 8082
+
+{{ .Name }}-stateboard:
+  listen: localhost:4401
+  password: passwd
